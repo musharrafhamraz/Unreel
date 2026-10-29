@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Unreel</string>
+    <string name="accessibility_service_name">Unreel Reel Counter</string>
+    <string name="accessibility_description">Counts Instagram Reels, YouTube Shorts, Facebook Reels, and Snapchat Spotlight videos you scroll through.</string>
+
+    <!-- Widget strings -->
+    <string name="widget_description">Shows how many reels you\'ve watched today</string>
+    <string name="widget_reels_today">reels today</string>
+    <string name="widget_counting_paused">Counting paused — tap to enable</string>
+    <string name="widget_content_description">Unreel: %1$d reels watched today</string>
+    <string name="widget_content_description_with_limit">Unreel: %1$d of %2$d reels watched today</string>
+</resources>

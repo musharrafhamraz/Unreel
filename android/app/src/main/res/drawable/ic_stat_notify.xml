@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Unspooling film reel mark for Unreel -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M12,3c-3.9,0 -7,3.1 -7,7c0,2.1 0.9,4 2.4,5.3L5,20h2.2l1.7,-3.3c0.9,0.4 1.9,0.6 3.1,0.6c3.9,0 7,-3.1 7,-7S15.9,3 12,3zM12,15.2c-2.9,0 -5.2,-2.3 -5.2,-5.2S9.1,4.8 12,4.8s5.2,2.3 5.2,5.2S14.9,15.2 12,15.2z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M12,8.2c-1,0 -1.8,0.8 -1.8,1.8S11,11.8 12,11.8s1.8,-0.8 1.8,-1.8S13,8.2 12,8.2z" />
+</vector>

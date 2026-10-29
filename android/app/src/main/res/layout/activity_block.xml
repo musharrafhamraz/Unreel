@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/surface_dark">
+
+    <TextView
+        android:id="@+id/block_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limit Reached"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary_dark"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/block_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 reels today"
+        android:textSize="24sp"
+        android:textColor="@color/text_secondary_dark"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/block_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take a break. The reels will be here tomorrow."
+        android:textSize="16sp"
+        android:textColor="@color/text_secondary_dark"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        android:paddingHorizontal="16dp" />
+
+    <Button
+        android:id="@+id/btn_go_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Home"
+        android:textSize="16sp"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/primary_dark"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_snooze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snooze 5 min"
+        android:textSize="16sp"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp"
+        android:backgroundTint="@color/surface_dark"
+        android:textColor="@color/text_primary_dark"
+        android:visibility="gone" />
+
+</LinearLayout>

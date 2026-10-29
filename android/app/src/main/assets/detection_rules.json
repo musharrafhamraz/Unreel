@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "apps": [
+    {
+      "id": "instagram",
+      "displayName": "Instagram Reels",
+      "packageName": "com.instagram.android",
+      "reelsScreenIndicators": ["com.instagram.android:id/clips_viewer_view_pager"],
+      "pagerNodeIds": ["com.instagram.android:id/clips_viewer_view_pager"],
+      "videoIdentityHints": ["com.instagram.android:id/clips_author_username"]
+    },
+    {
+      "id": "youtube_shorts",
+      "displayName": "YouTube Shorts",
+      "packageName": "com.google.android.youtube",
+      "reelsScreenIndicators": ["com.google.android.youtube:id/reel_recycler"],
+      "pagerNodeIds": ["com.google.android.youtube:id/reel_recycler"],
+      "videoIdentityHints": ["com.google.android.youtube:id/reel_channel_bar"]
+    },
+    {
+      "id": "facebook_reels",
+      "displayName": "Facebook Reels",
+      "packageName": "com.facebook.katana",
+      "reelsScreenIndicators": [],
+      "pagerNodeIds": [],
+      "videoIdentityHints": []
+    },
+    {
+      "id": "facebook_reels",
+      "displayName": "Facebook Reels (Lite)",
+      "packageName": "com.facebook.lite",
+      "reelsScreenIndicators": [],
+      "pagerNodeIds": [],
+      "videoIdentityHints": []
+    },
+    {
+      "id": "snapchat",
+      "displayName": "Snapchat Spotlight",
+      "packageName": "com.snapchat.android",
+      "reelsScreenIndicators": [],
+      "pagerNodeIds": [],
+      "videoIdentityHints": []
+    }
+  ]
+}

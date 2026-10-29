@@ -1,0 +1,39 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/success_light</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="colorError">@color/danger_light</item>
+        <item name="colorOnError">@android:color/white</item>
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorOnSurface">@color/text_primary_light</item>
+    </style>
+
+    <!-- Launch theme shown while Flutter initializes -->
+    <style name="LaunchTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+    <!-- Normal theme used after Flutter initializes -->
+    <style name="NormalTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/background_light</item>
+    </style>
+
+    <!-- Block Activity Theme (translucent fullscreen) -->
+    <style name="BlockActivityTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/surface_dark</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/text_primary_dark</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary_dark</item>
+    </style>
+</resources>

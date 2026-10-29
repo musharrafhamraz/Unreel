@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App colors (matching Flutter theme) -->
+    <color name="background_dark">#1D1511</color>
+    <color name="surface_dark">#281D18</color>
+    <color name="primary_dark">#FFA36C</color>
+    <color name="success_dark">#A3D3A9</color>
+    <color name="warning_dark">#FFCB73</color>
+    <color name="danger_dark">#FF8E93</color>
+    <color name="text_primary_dark">#FFF6ED</color>
+    <color name="text_secondary_dark">#D6C0B2</color>
+
+    <!-- Per-app accent colors -->
+    <color name="instagram_accent">#E1306C</color>
+    <color name="youtube_accent">#FF0000</color>
+    <color name="facebook_accent">#1877F2</color>
+    <color name="snapchat_accent">#FFFC00</color>
+
+    <!-- Widget colors (dark) -->
+    <color name="widget_surface">#281D18</color>
+    <color name="widget_text_primary">#FFF6ED</color>
+    <color name="widget_text_secondary">#D6C0B2</color>
+    <color name="widget_progress_bg">#5F4A3F</color>
+    <color name="widget_progress_primary">#FFA36C</color>
+    <color name="widget_progress_warning">#FBBF24</color>
+    <color name="widget_progress_danger">#FB7185</color>
+</resources>

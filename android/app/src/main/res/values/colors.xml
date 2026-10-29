@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App colors (matching Flutter theme) -->
+    <color name="background_light">#FFF6ED</color>
+    <color name="surface_light">#FFFCF8</color>
+    <color name="primary_light">#E8682C</color>
+    <color name="success_light">#16A34A</color>
+    <color name="warning_light">#F59E0B</color>
+    <color name="danger_light">#E11D48</color>
+    <color name="text_primary_light">#2D211C</color>
+    <color name="text_secondary_light">#786960</color>
+    <color name="surface_dark">#171B22</color>
+    <!-- Dark tokens also live in values so release lint has a base fallback -->
+    <color name="background_dark">#0E1116</color>
+    <color name="primary_dark">#8B93FF</color>
+    <color name="success_dark">#4ADE80</color>
+    <color name="warning_dark">#FBBF24</color>
+    <color name="danger_dark">#FB7185</color>
+    <color name="text_primary_dark">#F3F4F6</color>
+    <color name="text_secondary_dark">#9CA3AF</color>
+
+    <!-- Per-app accent colors -->
+    <color name="instagram_accent">#E1306C</color>
+    <color name="youtube_accent">#FF0000</color>
+    <color name="facebook_accent">#1877F2</color>
+    <color name="snapchat_accent">#FFFC00</color>
+
+    <!-- Widget colors (light) -->
+    <color name="widget_surface">#FFFCF8</color>
+    <color name="widget_text_primary">#2D211C</color>
+    <color name="widget_text_secondary">#786960</color>
+    <color name="widget_progress_bg">#F5E1D4</color>
+    <color name="widget_progress_primary">#E8682C</color>
+    <color name="widget_progress_warning">#F59E0B</color>
+    <color name="widget_progress_danger">#E11D48</color>
+</resources>
